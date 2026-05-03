@@ -1,0 +1,7 @@
+bucket_name = "your_aws_bucket_name" #make sure it is globally unique
+email_address = "your_email_address" #where the sns notifications will go
+table_name = "your_dynamodb_table"
+sqs_queue = "your_processing_queue"
+dlq = "your_processing_dlq"
+dlq_alarm = "Invoice_DLQ_Not_Empty"
+sns_topic = "your_alerts"

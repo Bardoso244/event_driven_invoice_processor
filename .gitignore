@@ -1,0 +1,16 @@
+
+.terraform/
+.terraform.lock.hcl
+.venv/
+
+*.tfstate
+*.tfstate.*
+
+crash.log
+
+*.tfvars
+*.tfvars.json
+*.tfvars
+*.zip
+
+.aws/
